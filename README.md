@@ -1,4 +1,7 @@
 # Bootstrap Basics
+Listen to the Boomers in your life and pull yourself up by your Bootstrap.
+
+---
 
 ## Setup
 - Fork and clone this repo to your machine
@@ -13,11 +16,11 @@ Go to the [Bootrap website](https://getbootstrap.com/) and click on Get Started
 
 ---
 
-Copy the CSS `<link>` and paste it into the head of `/views/layout.ejs` then copy the JS Bundle `<script>` and paste at the end of the body of `/views/layout.ejs`
+Copy the CSS `<link>` and paste it into the head of `/views/layout.ejs` **_above_** all other stylesheets. Then copy the JS Bundle `<script>` and paste it at the end of the body of `/views/layout.ejs`
 
 ![Bootstrap CDN](./public/assets/bootstrapCDN.png)
 
-### Wait... Why? 
+### Wait... What's Going On? 
 
 We are utilizing the Bootstrap CDN. Okay, well, what's that? Here's a definition from cloudflare.com: 
 ```

@@ -1,4 +1,26 @@
 body {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+main{
+  text-align: center;
+}
+nav {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2rem;
+}
+img {
+  width: 200px;
+  height: auto;
+}
+footer {
+  background-color: rgb(86, 168, 180);
+  bottom: 0;
+  color: black;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  width: 100%;
 }

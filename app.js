@@ -18,4 +18,8 @@ app.get('/about', (req, res) => {
   res.render('about');
 });
 
+app.get('/contact', (req, res) => {
+  res.render('contact');
+});
+
 app.listen(PORT, () => console.log(`🦻listenin' on port ${PORT}🦻`));
