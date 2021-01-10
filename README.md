@@ -28,4 +28,5 @@ A content delivery network (CDN) refers to a geographically distributed group of
 
 A CDN allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript files, stylesheets, images, and videos.
 ```
-Basically, there is a great deal of code that makes Bootstrap work. Instead of importing and storing all of this code in our own project directory, we instead utilize Bootstrap's CDN to serve Bootstrap's source code to us as needed.
+Behind the scenes there is a fair amount of code that makes Bootstrap work. Instead of importing and storing all of this code in our own project directory, we instead utilize Bootstrap's CDN to serve Bootstrap's source code to us as needed.
+

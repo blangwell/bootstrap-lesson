@@ -12,11 +12,9 @@ nav {
   font-size: 1.2rem;
 }
 footer {
-  background-color: rgb(86, 168, 180);
   bottom: 0;
-  color: black;
-  position: fixed;
   right: 0;
+  color: rgb(86, 168, 180);
   text-align: center;
   width: 100%;
 }

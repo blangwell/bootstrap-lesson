@@ -1,19 +1,21 @@
 <h1>Contact Us</h1>
-
-<h2>What is this Regarding?</h2>
-    <select>
+<form>
+    <h2>What is this Regarding?</h2>
+    <select name="what-regarding">
         <option>Inquiry</option>
         <option>Investment</option>
         <option>Opportunity</option>
     </select>
-<h2>How did you hear about Octopus?</h2>
+
+    <h2>How did you hear about Octopus?</h2>
     <select>
         <option>Friend</option>
         <option>Family</option>
         <option>News Media</option>
         <option>My Uncle</option>
     </select>
-<h2>How should we contact you?</h2>
+
+    <h2>How should we contact you?</h2>
     <div>
         <input type="radio" name="phone" value="phone">
         <label for="phone">Telephone</label>
@@ -26,7 +28,17 @@
         <input type="radio" name="address" value="phone">
         <label for="address">Visit my Physical Address</label>
     </div>
+    <h2>Attach a file</h2>
+    <div>
+        <input type="file">
+    </div>
+    <hr />
+    <div>
+        <input type="checkbox" name="opt-in">
+        <label for="opt-in">Yes! Sign me up for daily emails!</label>
+    </div>
     <div>
         <button type="submit">Send Message</button>
     </div>
+    
 </form>
