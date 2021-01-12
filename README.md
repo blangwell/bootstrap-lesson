@@ -41,3 +41,7 @@ By adding these tags we are utilizing the Bootstrap CDN. Okay, well, what's that
 > A CDN allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript files, stylesheets, images, and videos.
 
 Behind the scenes there is a fair amount of code that makes Bootstrap work (check out the [Bootstrap Github repo](https://github.com/twbs/bootstrap) if you're interested.) Instead of importing and storing all of this code in our own project directory, we instead utilize Bootstrap's CDN to serve Bootstrap's source code (_note: we are also able to install Bootstrap via an NPM package but for the purposes of this lesson we will be utilizing the CDN via the method described above._)
+
+## Resources
+- [Bootstrap Cheatsheet](https://getbootstrap.com/docs/5.0/examples/cheatsheet/)
+- [Bootstrap Examples](https://getbootstrap.com/docs/5.0/examples/#custom-components)
